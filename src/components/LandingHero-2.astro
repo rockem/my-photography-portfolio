@@ -1,5 +1,6 @@
 ---
 import siteConfig from '../../site.config.mjs';
+import backgroundImage from '../gallery/nature/L1001783.png';
 
 const owner = siteConfig.owner;
 const base = import.meta.env.BASE_URL;
@@ -8,7 +9,7 @@ const base = import.meta.env.BASE_URL;
 <div
 	class="absolute top-[80px] bottom-[120px] left-0 right-0 z-0"
 	style={{
-		backgroundImage: 'url(/src/gallery/nature/L1001783.png)',
+		backgroundImage: `url(${backgroundImage.src})`,
 		backgroundSize: 'cover',
 		backgroundPosition: 'center',
 		backgroundRepeat: 'no-repeat',
