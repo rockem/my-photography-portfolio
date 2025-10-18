@@ -9,11 +9,8 @@ const allCollection = {
 };
 const collections = [allCollection, ...(await getCollections())];
 const { collection } = Astro.params;
-const images = await getImages(
-	collection
-		? { collection, sortBy: 'captureDate', order: 'desc' }
-		: { sortBy: 'captureDate', order: 'desc' },
-);
+const options = { sortBy: 'captureDate', order: 'desc' };
+const images = await getImages(collection ? { collection: collection, ...options } : options);
 const base = import.meta.env.BASE_URL;
 
 export const getStaticPaths = async () => {
