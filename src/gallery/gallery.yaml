@@ -1,55 +1,93 @@
 collections:
+  - id: landscape
+    name: Landscape
   - id: nature
     name: Nature
-  - id: travel
-    name: Travel
+  - id: places
+    name: Places
   - id: street
     name: Street
+  - id: portrait
+    name: Portrait
 images:
-  - path: nature/nature-2.jpg
+  - path: landscape/L1000765.jpg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
+      title: L1000765
+      description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
-    meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
-      collections:
+        - landscape
         - featured
-        - nature
-    exif: {}
-  - path: nature/nature-5.jpg
+    exif:
+      captureDate: 2025-01-24T13:06:28.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 320
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1001739.jpg
     meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
+      title: L1001739
+      description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
+        - landscape
+    exif:
+      captureDate: 2025-07-09T19:19:04.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 500
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1001776.jpg
     meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
+      title: L1001776
+      description: ''
       collections:
+        - landscape
+    exif:
+      captureDate: 2025-03-07T12:41:15.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 160
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1001783.jpg
+    meta:
+      title: L1001783
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2025-03-07T12:45:20.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 500
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1001789.jpg
+    meta:
+      title: L1001789
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2025-03-07T12:48:12.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 8000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1002174.jpg
+    meta:
+      title: L1002174
+      description: ''
+      collections:
+        - landscape
         - featured
-        - nature
-    exif: {}
-  - path: nature/nature-8.jpg
-    meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
-        - featured
-        - nature
     exif:
       captureDate: 2025-03-27T10:35:21.000Z
       fNumber: 8
@@ -58,33 +96,586 @@ images:
       model: LEICA Q3
       shutterSpeed: 1250
       lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
+  - path: landscape/L1002177.jpg
     meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
+      title: L1002177
+      description: ''
       collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
+        - landscape
+    exif:
+      captureDate: 2025-03-27T10:37:01.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 800
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1002183.jpg
     meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
+      title: L1002183
+      description: ''
       collections:
-        - featured
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
+        - landscape
+    exif:
+      captureDate: 2025-03-27T10:40:43.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 800
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1002647.jpg
     meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
+      title: L1002647
+      description: ''
       collections:
-        - featured
-        - travel
-    exif: {}
-  - path: nature/nature-1.jpg
+        - landscape
+    exif:
+      captureDate: 2025-08-19T21:16:03.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 50
+      model: LEICA Q3
+      shutterSpeed: 0.03333333333333333
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: landscape/L1002654.jpg
     meta:
-      title: Nature 1
+      title: L1002654
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2025-08-19T21:31:05.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 0.03333333333333333
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/L1000035.jpg
+    meta:
+      title: L1000035
       description: ''
       collections:
         - nature
-    exif: {}
+    exif:
+      captureDate: 2025-05-10T11:34:20.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 6400
+      model: LEICA Q3
+      shutterSpeed: 60
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/L1000094.jpg
+    meta:
+      title: L1000094
+      description: ''
+      collections:
+        - nature
+        - featured
+    exif:
+      captureDate: 2025-05-10T12:49:12.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 6400
+      model: LEICA Q3
+      shutterSpeed: 15
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/L1000741.jpg
+    meta:
+      title: L1000741
+      description: ''
+      collections:
+        - nature
+        - featured
+    exif:
+      captureDate: 2025-01-24T12:50:58.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1600
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/L1002616.jpg
+    meta:
+      title: L1002616
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2025-04-23T15:16:23.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 500
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1001371.jpg
+    meta:
+      title: L1001371
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-02-12T22:45:40.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 50
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002234.jpg
+    meta:
+      title: L1002234
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-03-27T20:07:25.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 60
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002328.jpg
+    meta:
+      title: L1002328
+      description: ''
+      collections:
+        - places
+        - featured
+    exif:
+      captureDate: 2025-03-29T10:41:31.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 500
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002331.jpg
+    meta:
+      title: L1002331
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-03-29T10:42:25.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 2000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002521.jpg
+    meta:
+      title: L1002521
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-08-18T15:57:08.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 1250
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002913.jpg
+    meta:
+      title: L1002913
+      description: ''
+      collections:
+        - places
+        - featured
+    exif:
+      captureDate: 2025-09-04T10:17:12.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 640
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1002988.jpg
+    meta:
+      title: L1002988
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T11:53:20.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 250
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1003014.jpg
+    meta:
+      title: L1003014
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T13:59:59.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 640
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1003043.jpg
+    meta:
+      title: L1003043
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T15:10:31.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 40
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1003066.jpg
+    meta:
+      title: L1003066
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T15:27:37.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 20
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1003068.jpg
+    meta:
+      title: L1003068
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T15:30:31.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 25
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: places/L1003072.jpg
+    meta:
+      title: L1003072
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2025-09-04T15:39:20.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 1250
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000150.jpg
+    meta:
+      title: L1000150
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-01T17:00:10.000Z
+      fNumber: 2.8
+      focalLength: 28
+      iso: 2500
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000173-Enhanced-NR.jpg
+    meta:
+      title: L1000173 Enhanced Nr
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-01T17:22:46.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 6
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000191.jpg
+    meta:
+      title: L1000191
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-02T10:27:19.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 500
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000208.jpg
+    meta:
+      title: L1000208
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-03T13:04:09.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 800
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000386.jpg
+    meta:
+      title: L1000386
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-08T17:08:38.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 50
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000395.jpg
+    meta:
+      title: L1000395
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-08T17:23:21.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 200
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000400.jpg
+    meta:
+      title: L1000400
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-08T17:26:57.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 3200
+      model: LEICA Q3
+      shutterSpeed: 25
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000452.jpg
+    meta:
+      title: L1000452
+      description: ''
+      collections:
+        - street
+        - featured
+    exif:
+      captureDate: 2025-01-14T16:13:37.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 1600
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000732.jpg
+    meta:
+      title: L1000732
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-01-24T12:44:08.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 125
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1000844.jpg
+    meta:
+      title: L1000844
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-06-12T16:42:30.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1001141.jpg
+    meta:
+      title: L1001141
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-06-12T18:22:19.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 500
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1001332.jpg
+    meta:
+      title: L1001332
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-02-12T10:05:59.000Z
+      fNumber: 11
+      focalLength: 28
+      iso: 400
+      model: LEICA Q3
+      shutterSpeed: 60
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1001628.jpg
+    meta:
+      title: L1001628
+      description: ''
+      collections:
+        - street
+        - featured
+    exif:
+      captureDate: 2025-02-21T09:46:25.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 160
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1001660.jpg
+    meta:
+      title: L1001660
+      description: ''
+      collections:
+        - street
+        - featured
+    exif:
+      captureDate: 2025-02-21T11:10:20.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 320
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/L1002597.jpg
+    meta:
+      title: L1002597
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-04-20T08:01:50.000Z
+      fNumber: 11
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 320
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: street/R0000210.jpg
+    meta:
+      title: R0000210
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-09-26T16:37:22.000Z
+      fNumber: 8
+      focalLength: 26
+      iso: 100
+      model: RICOH GR IIIx
+      shutterSpeed: 320
+      lensModel: GR LENS 26mm F2.8
+  - path: portrait/L1000850.jpg
+    meta:
+      title: L1000850
+      description: ''
+      collections:
+        - portrait
+    exif:
+      captureDate: 2025-06-12T16:45:39.000Z
+      fNumber: 2.8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 8000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: portrait/L1000990.jpg
+    meta:
+      title: L1000990
+      description: ''
+      collections:
+        - portrait
+    exif:
+      captureDate: 2025-06-12T17:26:11.000Z
+      fNumber: 2
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: portrait/L1001002.jpg
+    meta:
+      title: L1001002
+      description: ''
+      collections:
+        - portrait
+        - featured
+    exif:
+      captureDate: 2025-06-12T17:43:19.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 160
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: portrait/L1001096.jpg
+    meta:
+      title: L1001096
+      description: ''
+      collections:
+        - portrait
+        - featured
+    exif:
+      captureDate: 2025-06-12T18:07:14.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 400
+      model: LEICA Q3
+      shutterSpeed: 16000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: portrait/L1001182.jpg
+    meta:
+      title: L1001182
+      description: ''
+      collections:
+        - portrait
+    exif:
+      captureDate: 2025-06-12T18:33:35.000Z
+      fNumber: 1.7
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 400
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
