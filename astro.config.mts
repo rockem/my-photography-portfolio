@@ -1,13 +1,13 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
-const siteUrl:string = import.meta.env.SITE_URL;
-const basePath:string = import.meta.env.BASE;
+const siteUrl:string = process.env.SITE_URL || 'https://rockem.github.io';
+const basePath:string = process.env.BASE ?? 'my-photography-portfolio';
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteUrl ?? 'https://rockem.github.io',
-	base: basePath ?? 'my-photography-portfolio',
+	site: siteUrl,
+	base: basePath,
 	vite: {
 		plugins: [tailwindcss()],
 	},
