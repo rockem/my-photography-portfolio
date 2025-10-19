@@ -1,8 +1,13 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
+import { loadEnv } from 'vite';
 
-const siteUrl:string = import.meta.env.PUBLIC_SITE_URL;
-const basePath:string = import.meta.env.PUBLIC_BASE;
+
+const env = loadEnv(process.env.NODE_ENV || 'development', process.cwd(), '');
+
+
+const siteUrl = env.SITE_URL;
+const basePath = env.BASE;
 
 // https://astro.build/config
 export default defineConfig({
