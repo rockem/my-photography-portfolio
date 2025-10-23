@@ -1,0 +1,61 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { getCollections, getImages } from '../data/imageStore.ts';
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+const collections = await getCollections();
+
+// Build a map of collection.id -> first image's src (ImageMetadata)
+const coverEntries = await Promise.all(
+	collections.map(async (item) => {
+		const images = await getImages({ collection: item.id });
+		const first = images[0]?.src;
+		return [item.id, first] as const;
+	}),
+);
+
+// Filter out undefined entries to keep the Map typed as ImageMetadata only
+const coverMap = new Map<string, ImageMetadata>(
+	coverEntries.filter(([, src]) => !!src) as [string, ImageMetadata][],
+);
+---
+
+<MainLayout>
+	<section class="py-16 pt-24">
+		<div class="container-custom">
+			<div class="mb-16 text-center">
+				<h1 class="text-4xl md:text-5xl font-bold mb-4">Gallery</h1>
+			</div>
+
+			<div class="flex justify-center mb-10">
+				<div class="flex flex-wrap gap-2 justify-center"></div>
+				<div
+					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 max-w-screen-xl mx-auto w-full"
+				>
+					{
+						collections.map((collection) => {
+							const cover = coverMap.get(collection.id);
+							return (
+								<a href={`collections/${collection.id ? collection.id : ''}`}>
+									<div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+										{cover && (
+											<Image
+												src={cover}
+												alt={collection.name}
+												class="w-full aspect-[3/2] object-cover"
+											/>
+										)}
+										<div class="p-4">
+											<h2 class="text-xl font-semibold mb-2">{collection.name}</h2>
+										</div>
+									</div>
+								</a>
+							);
+						})
+					}
+				</div>
+			</div>
+		</div>
+	</section>
+</MainLayout>

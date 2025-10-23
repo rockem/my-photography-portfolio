@@ -11,7 +11,7 @@ export default {
 	title: 'ES',
 	favicon: 'favicon.ico',
 	owner: 'Eli Segal',
-	profileImage: 'profile-1.png',
+	profileImage: 'profile-2.webp',
 	socialLinks: [
 		{
 			name: 'GitHub',
