@@ -754,3 +754,143 @@ images:
       model: LEICA Q3
       shutterSpeed: 2500
       lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/_MG_8056.jpg
+    meta:
+      title: ' Mg 8056'
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2017-08-18T06:50:51.000Z
+      fNumber: 9
+      focalLength: 135
+      iso: 400
+      model: Canon EOS 700D
+      shutterSpeed: 30
+      lensModel: EF-S18-135mm f/3.5-5.6 IS STM
+  - path: nature/_MG_8078.jpg
+    meta:
+      title: ' Mg 8078'
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2017-08-18T07:36:21.000Z
+      fNumber: 9
+      focalLength: 135
+      iso: 400
+      model: Canon EOS 700D
+      shutterSpeed: 60
+      lensModel: EF-S18-135mm f/3.5-5.6 IS STM
+  - path: landscape/untitled-1589.jpg
+    meta:
+      title: Untitled 1589
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2019-02-23T13:48:15.000Z
+      fNumber: 11
+      focalLength: 70
+      iso: 200
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 1600
+      lensModel: EF24-70mm f/4L IS USM
+  - path: places/IMG_5897.jpg
+    meta:
+      title: Img 5897
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2013-09-22T23:25:53.000Z
+      fNumber: 4
+      focalLength: 21.709
+      iso: 50
+      model: Canon PowerShot A620
+      shutterSpeed: 1250
+      lensModel: 7.3-29.2 mm
+  - path: street/_MG_7114.jpg
+    meta:
+      title: ' Mg 7114'
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2017-06-27T20:10:12.000Z
+      fNumber: 4
+      focalLength: 35
+      iso: 400
+      model: Canon EOS 700D
+      shutterSpeed: 60
+      lensModel: EF35mm f/2 IS USM
+  - path: nature/IMG_3170.jpg
+    meta:
+      title: Img 3170
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2021-03-29T11:37:27.000Z
+      fNumber: 8
+      focalLength: 70
+      iso: 200
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 250
+      lensModel: EF24-70mm f/4L IS USM
+  - path: places/IMG_3771.jpg
+    meta:
+      title: Img 3771
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2022-05-14T12:20:55.000Z
+      fNumber: 8
+      focalLength: 35
+      iso: 3200
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 160
+      lensModel: EF35mm f/2 IS USM
+  - path: places/untitled-1654.jpg
+    meta:
+      title: Untitled 1654
+      description: ''
+      collections:
+        - places
+    exif:
+      captureDate: 2019-03-23T13:56:39.000Z
+      fNumber: 8
+      focalLength: 40
+      iso: 800
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 640
+      lensModel: EF40mm f/2.8 STM
+  - path: portrait/IMG_4135.jpg
+    meta:
+      title: Img 4135
+      description: ''
+      collections:
+        - portrait
+    exif:
+      captureDate: 2022-10-10T19:37:18.000Z
+      fNumber: 2
+      focalLength: 35
+      iso: 1600
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 250
+      lensModel: EF35mm f/2 IS USM
+  - path: portrait/_MG_7296.jpg
+    meta:
+      title: ' Mg 7296'
+      description: ''
+      collections:
+        - portrait
+    exif:
+      captureDate: 2017-07-07T11:42:20.000Z
+      fNumber: 4.5
+      focalLength: 42
+      iso: 100
+      model: Canon EOS 700D
+      shutterSpeed: 60
+      lensModel: EF-S18-135mm f/3.5-5.6 IS STM

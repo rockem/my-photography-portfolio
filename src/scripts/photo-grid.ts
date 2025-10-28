@@ -73,13 +73,37 @@ export async function setupGallery() {
 	applyContainerStyleBasedOnLayout(container, layout);
 
 	// Initialize GLightbox
-	GLightbox({
+	const lightbox = GLightbox({
 		selector: '.glightbox',
 		openEffect: 'zoom',
 		closeEffect: 'fade',
 		width: 'auto',
 		height: 'auto',
+		draggable: false,
 	});
+
+	// Add “no download” logic
+	lightbox.on('open', () => {
+		disableImageDownload();
+	});
+}
+
+function disableImageDownload() {
+	const container = document.querySelector('.glightbox-container');
+	if (!container) return;
+
+	// Prevent right-click and drag
+	container.addEventListener('contextmenu', (e) => e.preventDefault());
+	container.addEventListener('dragstart', (e) => e.preventDefault());
+
+	// Disable pointer events on images (makes them not draggable/selectable)
+	const observer = new MutationObserver(() => {
+		container.querySelectorAll('.gslide-image img').forEach((img) => {
+			img.setAttribute('draggable', 'false');
+			img.setAttribute('oncontextmenu', 'return false;');
+		});
+	});
+	observer.observe(container, { childList: true, subtree: true });
 }
 
 function createLayoutFor(
