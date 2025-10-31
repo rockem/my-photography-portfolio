@@ -9,6 +9,8 @@ collections:
     name: Places
   - id: portrait
     name: Portrait
+  - id: moments
+    name: Little Moments
 images:
   - path: nature/L1000035.jpg
     meta:
@@ -893,4 +895,125 @@ images:
       iso: 100
       model: Canon EOS 700D
       shutterSpeed: 60
+      lensModel: EF-S18-135mm f/3.5-5.6 IS STM
+  - path: moments/DSCF3485.jpg
+    meta:
+      title: Dscf3485
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2024-12-20T16:00:38.000Z
+      fNumber: 5.6
+      focalLength: 23
+      iso: 1600
+      model: X100V
+      shutterSpeed: 110
+  - path: moments/L1000412.jpg
+    meta:
+      title: L1000412
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2025-06-01T13:46:58.000Z
+      fNumber: 2.8
+      focalLength: 28
+      iso: 200
+      model: LEICA Q3
+      shutterSpeed: 250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: moments/DSCF1308.jpg
+    meta:
+      title: Dscf1308
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2023-03-04T16:41:32.000Z
+      fNumber: 2
+      focalLength: 23
+      iso: 320
+      model: X100V
+      shutterSpeed: 1500
+  - path: moments/DSCF1326.jpg
+    meta:
+      title: Dscf1326
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2023-12-27T10:55:16.000Z
+      fNumber: 2
+      focalLength: 23
+      iso: 640
+      model: X100V
+      shutterSpeed: 200
+  - path: moments/DSCF1568.jpg
+    meta:
+      title: Dscf1568
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2023-04-07T15:30:58.000Z
+      fNumber: 2
+      focalLength: 23
+      iso: 320
+      model: X100V
+      shutterSpeed: 209.99999999999997
+  - path: moments/DSCF2724.jpg
+    meta:
+      title: Dscf2724
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2024-08-31T10:46:06.000Z
+      fNumber: 2
+      focalLength: 23
+      iso: 640
+      model: X100V
+      shutterSpeed: 2000
+  - path: moments/L1002562.jpg
+    meta:
+      title: L1002562
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2025-04-19T11:20:32.000Z
+      fNumber: 4
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 2000
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: moments/untitled-1790.jpg
+    meta:
+      title: Untitled 1790
+      description: ''
+      collections:
+        - moments
+    exif:
+      captureDate: 2019-05-09T19:25:08.000Z
+      fNumber: 2.5
+      focalLength: 50
+      iso: 200
+      model: Canon EOS 6D Mark II
+      shutterSpeed: 160
+      lensModel: EF50mm f/1.8 STM
+  - path: landscape/_MG_7828.jpg
+    meta:
+      title: ' Mg 7828'
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2017-08-02T19:01:03.000Z
+      fNumber: 8
+      focalLength: 18
+      iso: 100
+      model: Canon EOS 700D
+      shutterSpeed: 250
       lensModel: EF-S18-135mm f/3.5-5.6 IS STM
