@@ -14,3 +14,7 @@ Beyond photography, I’m also a singer-songwriter, skateboarder and love to pla
 
 - Leica Q3(28)
 - Ricoh GR IIIx
+
+---
+
+If you want to build a site like this, you can use the [Photography Portfolio AstroJS template](https://astro.build/themes/details/photography-portfolio-template/) I created for it.
