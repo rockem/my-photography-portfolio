@@ -1017,3 +1017,17 @@ images:
       model: Canon EOS 700D
       shutterSpeed: 250
       lensModel: EF-S18-135mm f/3.5-5.6 IS STM
+  - path: landscape/R0000328.jpg
+    meta:
+      title: R0000328
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2025-11-08T12:05:56.000Z
+      fNumber: 8
+      focalLength: 26
+      iso: 160
+      model: RICOH GR IIIx
+      shutterSpeed: 500
+      lensModel: GR LENS 26mm F2.8
