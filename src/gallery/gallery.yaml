@@ -1031,3 +1031,17 @@ images:
       model: RICOH GR IIIx
       shutterSpeed: 500
       lensModel: GR LENS 26mm F2.8
+  - path: street/IMG_2827.jpeg
+    meta:
+      title: Img 2827
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2022-11-23T08:56:53.000Z
+      fNumber: 1.5
+      focalLength: 5.7
+      iso: 50
+      model: iPhone 13 Pro Max
+      shutterSpeed: 2299
+      lensModel: iPhone 13 Pro Max back triple camera 5.7mm f/1.5
